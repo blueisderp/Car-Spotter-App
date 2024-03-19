@@ -1,0 +1,53 @@
+/* featurerequest.css */
+
+
+.featureRequestPage {
+    background-color: #2b373f;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    font-family: "Anta", sans-serif;
+  }
+
+.featureRequestPage .container {
+    width: 80%;
+    margin: 10% auto;
+    padding: 20px;
+    background-color: #36454F; /* Dark container background color */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    justify-content: center;
+}
+
+.featureRequestPage .h1 {
+    font-size: 150%;
+    color: #f5f5f5; /* Light text color */
+}
+
+.featureRequestPage input {
+    width: 80%;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.featureRequestPage button {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF521B; /* Orange button */
+    color: white; /* White text color */
+    cursor: pointer;
+    font-family: "Anta", sans-serif;
+}
+
+.featureRequestPage button:hover {
+    background-color: #F4743B; /* Darker orange on hover */
+}
+

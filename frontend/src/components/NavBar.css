@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+.catchpage {
+  background-color: #2b373f;
+  margin: 0;
+  height: 100%;
+  position: fixed;
+  font-family: "Anta", sans-serif;
+  width: 100%;
+  text-align: center;
+}
+
+
+.container {
+  width: 80%;
+  margin: 10% auto;
+  background-color: #36454F;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  justify-content: center;
+}
+
+.h1 {
+  font-size: 150%;
+  color: #f5f5f5;
+}
+
+.h2 {
+  font-size: 120%;
+  color: #f5f5f5;
+}
+
+.p { 
+  color: #f5f5f5;
+  font-size: 90%;
+}
+
+.navbar {
+  display: flex;
+  position: fixed; /* fixed at bottom of page */
+  bottom: 0%;
+  width: 100%;
+  justify-content: space-between; /* Adjust as needed */
+  box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow to separate from the content */
+}
+
+.nbtn {
+  width: 80%;
+  padding: 10px;
+  border: none;
+  background-color: #FF521B;
+  color: white;
+  cursor: pointer;
+  font-family: "Anta", sans-serif;
+  border-left: 2.5px solid #252525;
+  border-right: 2.5px solid #252525;
+  
+}
+
+
+.nrej {
+  background-color: #4a84db;
+  width: 80%;
+  padding: 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-family: "Anta", sans-serif;
+  border-left: 2.5px solid #252525;
+  border-right: 2.5px solid #252525;
+}
+
+.nbtn.active {
+    background-color: #983517; /* Active background color for Home and Garage pages */
+}
+  
+.nrej.active {
+    background-color: #2b4e81; /* Active background color for Camera page */
+}
+
+.btn:hover {
+  background-color: #F4743B;
+}
+
+
+
+.btn-alt:hover {
+  background-color: #FF5F1F;
+}

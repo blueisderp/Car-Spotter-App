@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+.backButton {
+    background-color: #FF521B;
+    color: white;
+    font-family: "Anta", sans-serif;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 10%;
+    border-radius: 5px;
+}
+
+.backButton:hover {
+    background-color: #F4743B;
+}

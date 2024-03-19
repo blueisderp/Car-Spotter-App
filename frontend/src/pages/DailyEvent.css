@@ -1,0 +1,88 @@
+/* DailyEvent.css */
+
+.dailyEventPage {
+    background-color: #2b373f;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    font-family: "Anta", sans-serif;
+}
+
+.dailyEventPage .container {
+    width: 80%;
+    margin: 10% auto;
+    padding: 20px;
+    background-color: #36454F; /* Dark container background color */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    justify-content: center;
+}
+
+.dailyEventPage h1 {
+    font-size: 150%;
+    color: #f5f5f5; /* Light text color */
+}
+
+.image-container {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    max-height: 300px; /* Set a max height to control the visible portion */
+    position: relative;
+}
+
+.cropped-image {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    transform: scale(2); /* Adjust the zoom level as needed */
+}
+
+/* Button styling */
+.dailyEventPage .button-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px; /* Gap between buttons */
+
+}
+
+.dailyEventPage .button-container button {
+    width: 100%; /* Full width of the grid cell */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF521B; /* Orange button */
+    color: white; /* White text color */
+    cursor: pointer;
+    font-family: "Anta", sans-serif;
+}
+
+
+/* Style for the Hint button */
+.dailyEventPage .hint-button {
+    background-color: #FF521B; /* Orange button */
+    color: white; /* White text color */
+    border: none;
+    width: 15%;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-family: "Anta", sans-serif;
+}
+
+.dailyEventPage .hint-button:hover {
+    background-color: #F4743B; /* Darker orange on hover */
+}
+
+.dailyEventPage .correct-guess {
+    background-color: #4CAF50; /* Green button */
+}
+
+/* Style for the incorrect guess */
+.dailyEventPage .incorrect-guess {
+    background-color: #FF5733; /* Red button */
+}

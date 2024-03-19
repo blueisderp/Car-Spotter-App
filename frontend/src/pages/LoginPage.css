@@ -1,0 +1,96 @@
+/* imported Google font to match styling of other pages */
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+/* Sets general color and font theme for the login page */
+.loginpage {
+  background-color: #2b373f;
+  margin: 0;
+  height: 100%;
+  position: fixed;
+  font-family: "Anta", sans-serif;
+  overflow: scroll;
+}
+
+/* highlights container for login form */
+.container {
+  width: 80%;
+  margin: 10% auto;
+  padding: 10px;
+  background-color: #36454F;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  justify-content: center;
+}
+
+.h1 {
+  font-size: 150%;
+  color: #f5f5f5;
+}
+
+.h2 {
+  font-size: 120%;
+  color: #f5f5f5;
+}
+
+.p { 
+  color: #f5f5f5;
+  font-size: 90%;
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Decided on orange for color buttons to stand out from gray background */
+.btn {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #FF521B;
+  color: white;
+  cursor: pointer;
+  font-family: "Anta", sans-serif;
+}
+
+.btn:hover {
+  background-color: #F4743B;
+}
+
+/* Formatting for pw note telling user suggestions for their pw */
+#pwdnote 
+{ 
+  color: #f5f5f5;
+  background-color: #FF521B;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto; /* Center horizontally */
+  margin-top: 3%;
+  border-radius: 5px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+/* Formatting for pw error that returns when user invalid pw*/
+#pwderror {
+  color: black;
+  width: 80%;
+  margin: auto; /* Center horizontally */
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: #FFBF00;
+  font-size: 90%;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
